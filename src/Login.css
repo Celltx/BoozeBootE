@@ -1,0 +1,78 @@
+/* Estilo del contenedor del login */
+.login-container {
+  background-color: #fff;
+  color: #333;
+  padding: 20px;
+  max-width: 350px; 
+  margin: 50px auto; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  min-height: 50vh; 
+}
+
+.login-logo {
+  max-width: 200px;
+  margin-bottom: 20px; 
+}
+
+.login-heading {
+  color: #56070c;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.login-field {
+  margin-bottom: 15px;
+}
+
+.login-label {
+  margin-bottom: 5px;
+  font-weight: bold;
+  width: 100%; 
+  text-align: left; 
+}
+
+.login-input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%; 
+  box-sizing: border-box; 
+}
+
+.login-button, .resend-button {
+  background-color: #56070c;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.login-button:hover, .resend-button:hover {
+  background-color: #333;
+}
+
+/* Margen entre los botones de reenviar y verificar */
+.resend-button {
+  margin-bottom: 10px; /* Agrega un margen debajo del botón de reenviar */
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
